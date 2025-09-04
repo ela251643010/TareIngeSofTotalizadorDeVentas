@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b3ad924d02133ecbb2cfc3d7bdb1764d9908cf9",
     "author": "ela251643010",
     "commit": {
       "date": "2025-09-04T13:44:17.000Z",
       "message": "feat: Seleccionar estado y mostrar elección",
-      "url": "https://github.com/ela251643010/TareIngeSofTotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareIngeSofTotalizadorDeVentas/commit/5b3ad924d02133ecbb2cfc3d7bdb1764d9908cf9"
     },
     "stats": {
       "total": 7,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-09-04T14:02:34.000Z",
+      "message": "feat : Seleccionar estado y mostrar el porcentaje de impuesto que tiene CA",
+      "url": "https://github.com/ela251643010/TareIngeSofTotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 21,
+      "deletions": 4,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

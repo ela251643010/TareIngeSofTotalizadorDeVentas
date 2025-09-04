@@ -1,4 +1,4 @@
-import {mostrarCantidad, mostrarPrecioPorItem, calcularPrecioNeto} from "./totalizador.js";
+import {mostrarCantidad, mostrarPrecioPorItem, calcularPrecioNeto,impuestoPorEstado} from "./totalizador.js";
 
 describe("Totalizar ventas", () => {
   it("deberia mostrar la cantidad mostrada por el usuario", () => {
@@ -9,6 +9,9 @@ describe("Totalizar ventas", () => {
   });
   it("Deberia calcular el precio neto",()=>{
     expect (calcularPrecioNeto(13,2)).toEqual(26);
+  });
+  it("Deberia mostrar porcentaje de impuesto por estado", () =>{
+    expect (impuestoPorEstado("CA")).toEqual(6.65);
   });
 //   it("Deberia Seleccionar estado y mostrar elección CA",()=>{
 //     expect ((13,2)).toEqual(26);
