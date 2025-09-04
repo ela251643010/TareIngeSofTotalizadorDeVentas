@@ -10,4 +10,7 @@ describe("Totalizar ventas", () => {
   it("Deberia calcular el precio neto",()=>{
     expect (calcularPrecioNeto(13,2)).toEqual(26);
   });
+//   it("Deberia Seleccionar estado y mostrar elección CA",()=>{
+//     expect ((13,2)).toEqual(26);
+//   });
 });

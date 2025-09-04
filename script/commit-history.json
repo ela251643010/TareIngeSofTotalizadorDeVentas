@@ -38,17 +38,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "68e25255342189a0de394fed566fda131dcd6331",
     "author": "ela251643010",
     "commit": {
       "date": "2025-09-04T13:38:44.000Z",
       "message": "feat: Mostrar el precio neto (cantidad items x precio item)",
-      "url": "https://github.com/ela251643010/TareIngeSofTotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/ela251643010/TareIngeSofTotalizadorDeVentas/commit/68e25255342189a0de394fed566fda131dcd6331"
     },
     "stats": {
       "total": 11,
       "additions": 8,
       "deletions": 3,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-09-04T13:44:17.000Z",
+      "message": "feat: Seleccionar estado y mostrar elección",
+      "url": "https://github.com/ela251643010/TareIngeSofTotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
       "date": "2025-09-04"
     },
     "coverage": 100,
