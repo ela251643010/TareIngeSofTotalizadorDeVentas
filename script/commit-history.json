@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "ela251643010",
+    "commit": {
+      "date": "2025-09-04T13:13:14.000Z",
+      "message": "feat: Ingresar cantidad de items y mostrar en pantalla lo ingresado (Botón mostrar)",
+      "url": "https://github.com/ela251643010/TareIngeSofTotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 63,
+      "additions": 52,
+      "deletions": 11,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
