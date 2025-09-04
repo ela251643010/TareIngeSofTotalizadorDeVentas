@@ -5,5 +5,8 @@ function mostrarCantidad(cantidad) {
 function mostrarPrecioPorItem(precio) {
     return precio;
 }
+function calcularPrecioNeto(cantidad, precio){
+    return cantidad*precio;
+}
 
-export  {mostrarCantidad, mostrarPrecioPorItem};
+export  {mostrarCantidad, mostrarPrecioPorItem, calcularPrecioNeto};
