@@ -10,8 +10,20 @@ describe("Totalizar ventas", () => {
   it("Deberia calcular el precio neto",()=>{
     expect (calcularPrecioNeto(13,2)).toEqual(26);
   });
-  it("Deberia mostrar porcentaje de impuesto por estado", () =>{
-    expect (impuestoPorEstado("CA")).toEqual(6.65);
+  it("Deberia mostrar porcentaje de impuesto para el estado CA", () =>{
+    expect (impuestoPorEstado("CA")).toEqual(8.25);
+  });
+  it("Deberia mostrar porcentaje de impuesto para el estado UT", () =>{
+    expect (impuestoPorEstado("UT")).toEqual(6.65);
+  });
+  it("Deberia mostrar porcentaje de impuesto para el estado NV", () =>{
+    expect (impuestoPorEstado("NV")).toEqual(8.00);
+  });
+  it("Deberia mostrar porcentaje de impuesto para el estado TX", () =>{
+    expect (impuestoPorEstado("TX")).toEqual(6.25);
+  });
+  it("Deberia mostrar porcentaje de impuesto para el estado AL", () =>{
+    expect (impuestoPorEstado("AL")).toEqual(4.00);
   });
 //   it("Deberia Seleccionar estado y mostrar elección CA",()=>{
 //     expect ((13,2)).toEqual(26);
