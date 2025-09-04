@@ -14,13 +14,15 @@
 //   div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
 // });
 // 
-import mostrarCantidad from "./totalizador.js";
+import {mostrarCantidad, mostrarPrecioPorItem } from "./totalizador.js";
 const inputCantidad = document.querySelector("#Cantidad");
+const inputPrecioPorItem = document.querySelector("#precio");
 const form = document.querySelector("#totalizar");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const cantidad = Number.parseInt(inputCantidad.value);
-  div.innerHTML = "<p>" + mostrarCantidad(cantidad) + "</p>";
+  const precioPorItem = Number.parseInt(inputPrecioPorItem.value);
+  div.innerHTML = "<p>" +"Cantidad: " + mostrarCantidad(cantidad) + "<br>" + "Precio: " + mostrarPrecioPorItem(precioPorItem)+ "</p>";
 });
